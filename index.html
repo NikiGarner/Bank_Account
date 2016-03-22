@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank Account</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Create new bank account:</h2>
+          <form id="new-account">
+            <div class="form-group">
+              <label for="new-account-name">Account Name</label>
+              <input type="text" class="form-control" id="new-account-name">
+            </div>
+            <div class="form-group">
+              <label for="initial-deposit">Initial Deposit</label>
+              <input type="text" class="form-control" id="initial-deposit">
+            </div>
+
+
+            <span class="btn btn-primary" id="create-bank-account">Create Bank Account</span>
+
+          </form>
+
+          <h2>New Balance:</h2>
+          
+        </div>
+        <div class="col-md-6">
+          <div id="show-contact">
+            <h2></h2>
+
+            <p>First Name: <span class="first-name"></span></p>
+            <p>Last Name: <span class="last-name"></span></p>
+            <p>Addresses:</p>
+            <ul id="addresses">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
